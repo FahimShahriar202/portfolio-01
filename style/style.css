@@ -222,3 +222,26 @@ height: 40px}
   align-items: center;
   
 }
+.hd{
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0%;
+}
+
+.pd{
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  width: 60%;
+
+}
+.html .css .js{
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 24px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
