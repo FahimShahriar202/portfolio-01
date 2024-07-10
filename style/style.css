@@ -139,7 +139,7 @@ body{
     align-items: center;
 }
 
-.ha{
+header{
   font-size: 30px;
   color: rgba(13, 19, 33, 0.7);
   font-family: Azeret Mono;
@@ -154,7 +154,42 @@ body{
 }
 
 .button2{
+  float: left;
   width: 150px;
   height: 48px;
 }
 
+button{width: 120px;
+height: 40px}
+
+.lay2{
+  float: left;
+}
+
+.hb{
+  float: right;
+  font-size: 30px;
+}
+.pb{
+  float: right;
+  font-size: 16px;
+}
+
+.notun{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.section3{
+  position: absolute;
+  width: 70%;
+  height: 20%;
+  left: 15%;
+  padding: 48px;
+  align-items: center;
+}
+
+.button3{
+  float: right;
+}
