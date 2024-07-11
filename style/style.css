@@ -159,8 +159,9 @@ header{
   height: 48px;
 }
 
-button{width: 120px;
-height: 40px}
+button{
+
+}
 
 .lay2{
   float: left;
@@ -192,6 +193,8 @@ height: 40px}
 
 .button3{
   float: right;
+  width: 120px;
+  height: 40px
 }
 
 .hc{
@@ -238,10 +241,169 @@ height: 40px}
   width: 60%;
 
 }
-.html .css .js{
+/* .html .css .js{
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 24px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+} */
+
+.html{
+  position: static;
+  width: 182px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 24px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 24px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+
+}
+
+.css{
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+
+  position: static;
+  width: 182px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 24px;
   order: 0;
   flex-grow: 0;
   margin: 0px 24px;
   border-radius: 16px;
   background: rgba(255, 76, 30, 0.05);
 }
+
+.js{
+  
+  position: static;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 182px;
+  height: 150px;
+  padding: 50px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 24px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+
+.lang{
+  width: 1140px;
+  height: 462px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+
+}
+
+.he{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0%;
+}
+
+.pe{
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  width: 60%;
+}
+
+
+.lib{
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  width: 120px;
+  float: left;
+} 
+
+.react {
+  position: static;
+  width: 1140px;
+  height: 219px; 
+  padding: 48px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+}
+
+.node{
+  position: static;
+  width: 1140px;
+  height: 219px; 
+  padding: 48px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+}
+.mongodb{
+  position: static;
+  width: 1140px;
+  height: 219px; 
+  padding: 48px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+}
+
