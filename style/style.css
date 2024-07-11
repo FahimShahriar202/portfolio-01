@@ -407,3 +407,59 @@ button{
   background: rgb(255, 255, 255);
 }
 
+
+/* when i use this, buttons and feedback items do not appear */
+.feedback{
+  background-image: url("../assets/handshake.jpg");
+  margin: 0 auto;
+  
+  background-position: center;
+  text-align: center;
+  position: absolute;
+  width: 1000px;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 75px 55px 75px 55px;
+}
+
+.hi{
+  color: white;
+  position: static;
+  width: 606px;
+  height: 52px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.pi{
+  color: white;
+  position: static;
+  width: 606px;
+  height: 52px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
